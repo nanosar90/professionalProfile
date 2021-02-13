@@ -74,22 +74,23 @@ main {
 
 }
 
-.heroImg {
+.heroDiv {
     width: 100%;
-    height: 400px;
-    position: absolute;
-
+    background-image: url('./images/global_network.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.heroText {
-    margin: 0 auto;
-    position: relative;
-    width: 100%;
+.logoImgDiv {
+    margin: auto;
+    width: 30%;
 }
 
 
-.logoImg {
-	margin: auto;
+.row {
+    display: flex;
+    flex-direction: row;
 }
 
 .headings {
@@ -104,6 +105,12 @@ main {
     display: flex;
     flex-direction: column;
     max-width: 50%;
+
+}
+
+.container0 {
+    display: flex;
+    max-width: 60%;
 
 }
 
