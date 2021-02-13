@@ -1,0 +1,144 @@
+:root {
+    --blue: rgb(32, 83, 150);
+    --white: silver;
+
+}
+
+div.container.img {
+
+    float:left;
+}
+
+header {
+    background-color: var(--white);
+    position: fixed;
+    margin: 0;
+    top: 0;
+    width: 100%;
+    
+    }
+
+header.container {
+    width: 80%;
+    margin: 0 auto;
+    }
+
+
+nav {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 80px;
+    padding-top: 25px;
+    position: relative;
+    margin-right: 20px;
+    }
+    
+nav a {
+    color:var(--blue);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    }
+
+nav a:hover {
+    color: grey;
+    }
+    
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+    }
+
+nav a:hover::before {
+    width: 100%;
+    }
+
+main {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: stretch;
+
+}
+
+.heroImg {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+
+}
+
+.heroText {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+
+.logoImg {
+	margin: auto;
+}
+
+.headings {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.containers {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+
+}
+
+.container1 {
+    display: flex;
+    max-width: 60%;
+
+}
+    
+.container2 {
+    display: flex;
+    max-width: 30%
+    
+}
+
+.container3 {
+    display: flex;
+    max-width: 60%;
+    
+}
+
+.container4 {
+    display: flex;
+    max-width:30%
+}
+
+.container5 {
+    display: flex;
+    max-width: 30%;
+}
+    
+    
+
+    
+
+
+
+
