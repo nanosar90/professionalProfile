@@ -1,6 +1,6 @@
 :root {
-    --blue: rgb(32, 83, 150);
-    --white: silver;
+    --blue: teal;
+    --white: tan;
 
 }
 
@@ -68,8 +68,8 @@ main {
     max-width: 80%;
     margin-top: 80px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
     align-content: stretch;
@@ -79,10 +79,11 @@ main {
 
 .heroDiv {
     width: 100%;
-    background-image: url('./images/global_network.jpg');
+    background-image: url('./images/wooden-board-empty-table-front-blue-sea-sky-background-perspective-wood-floor-sea-sky-can-be-used-display-montage-your-products-beach-summer-concepts_1253-804.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
 }
 
 .logoImgDiv {
@@ -107,23 +108,55 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
     
 }
 
-.about img {
-    border-radius: 50%;
+.aboutIMG {
+    border-radius:50%;
     width: 20%;
+    display: flex;
+    margin-top: 1rem;
 }
 
 .work {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    /* align-items: flex-start;
+    align-content: stretch; */
+    margin: 0 auto;
     
 }
+
+.work h1 {
+    width: 20%;
+}
+
+.work ul {
+    list-style-type: none;
+    width: 80%;
+}
+
 .contact {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     
+}
+
+#Work {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    height:1000px;
+    
+
 }
