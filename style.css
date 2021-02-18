@@ -64,13 +64,16 @@ nav a:hover::before {
     }
 
 main {
+    align-content: center;
+    max-width: 80%;
     margin-top: 80px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: flex-start;
     align-content: stretch;
+    margin: auto;
 
 }
 
@@ -87,64 +90,30 @@ main {
     width: 30%;
 }
 
-
-.row {
+div .container {
+    align-content: center;
+    max-width: 80%;
+    margin-top: 80px;
     display: flex;
     flex-direction: row;
-}
-
-.headings {
     flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
-    max-width: 50%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: stretch;
+    margin: 0 auto;
 }
 
-.containers {
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
-    max-width: 50%;
-
+div .aboutMe {
+    height: 300px;
+    width: 500px;
+    flex: 1 1 auto;
 }
 
-.container0 {
-    display: flex;
-    max-width: 60%;
-
+div .container0 {
+    height: 300px;
+    width: 500px;
+    flex: 1 1 auto;
 }
-
-.container1 {
-    display: flex;
-    max-width: 60%;
-
-}
-    
-.container2 {
-    display: flex;
-    max-width: 30%
-    
-}
-
-.container3 {
-    display: flex;
-    max-width: 60%;
-    
-}
-
-.container4 {
-    display: flex;
-    max-width:30%
-}
-
-.container5 {
-    display: flex;
-    max-width: 30%;
-}
-    
-    
-
-    
 
 
 
