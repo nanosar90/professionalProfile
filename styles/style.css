@@ -1,0 +1,23 @@
+.hero-body {
+  background-image: url("../images/Image-35-bigstock-Tropical-Beach-Panorama-21910193.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+#aboutMe {
+  display: flex;
+  flex-direction: row;
+}
+#aboutMe .myIMG {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+#myProjects {
+  text-align: center;
+  font-size: 28px;
+}
+
+#contactMe {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
