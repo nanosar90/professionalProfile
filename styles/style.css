@@ -12,6 +12,9 @@
   border-radius: 50%;
   margin-right: 20px;
 }
+#aboutMe h1 {
+  color: #009879;
+}
 
 #myProjects {
   text-align: center;
@@ -20,4 +23,16 @@
 
 #contactMe {
   text-align: center;
+}
+
+#contactMe ul {
+  list-style: none;
+  display: inline-flex;
+}
+#contactMe li {
+  margin: 1rem;
+}
+
+h1, h2, h3 {
+  color: #009879;
 }/*# sourceMappingURL=style.css.map */
