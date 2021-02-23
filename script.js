@@ -1,35 +1,15 @@
-/* function setupTabs () {
-    document.querySelectorAll(".tabsButton").forEach(button => {
-        button.addEventListener('click', () =>{
-            const sideBar = button.parentElement;
-            const tabsContainer = sideBar.parentElement;
-            const tabsNumber = a.dataset.forTab;
-            const toActivate = tabsContainer.querySelector(`.tabsContent[data-tab="${tabNumber}"]`);
-            /* 
-            sideBar.querySelectorAll('.tabsButton').forEach(button => {
-                button.classList.remove('tabsButtonActive');
-            });
+/* function openTab(evt, tabName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("content-tab");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tab");
+    for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" is-active", "");
+    }
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " is-active";
+  };
 
-            tabsContainer.querySelectorAll('.tabsContent').forEach( tab=> {
-                tab.classList.remove('tabsContentActive');
-            });
-
-            button.classList.add('tabsButtonActive');
-            tabToActivate.classList.add('tabsContentActive'); */
-/* 
-            console.log(sideBar);
-            console.log(tabsContainer);
-            console.log(tabsNumber);
-            console.log(toActivate);
-
-        });
-    });
-}
-
-        document.querySelectorAll('.tabs').forEach(tabsContainer => {
-            tabsContainer.querySelector('.tabsSideBar').click();
-        });
-
-
-    setupTabs(); */ 
-
+  openTab (); */
